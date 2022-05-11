@@ -143,7 +143,7 @@ function randomFloat(min, max) {
 
 /*A single explosion particle*/
 function Particle() {
-	this.scale = 1.0;
+	this.scale = 1;
 	this.x = 0;
 	this.y = 0;
 	this.radius = 20;
@@ -243,7 +243,6 @@ function update(frameDelay) {
 		particle.draw(context2D);
 	}
 }
-
 window.addEventListener("load", function () {
 	// canvas and 2D context initialization
 	canvas = document.getElementById("canvas2");

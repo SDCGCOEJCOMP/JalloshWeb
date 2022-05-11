@@ -13,7 +13,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.2/howler.min.js"></script>
 </head>
 
-<body style="background-color: black;"> 
+<body style="background-color: black;" onLoad="thisfunc()">
+  <script>
+    window.onload=setTimeout(function(){
+
+      for(var i=0;i<10;i++)
+      document.getElementById("congratulate").click();
+    },1000);
+  </script>
 <header>
   <h1><span class="color4">G</span><span class="color2">C</span><span class="color3">O</span><span class="color3">E</span><span class="color1">J'</span><span class="color3">s </span><span class="color1">T</span><span class="color2">e</span><span class="color4">c</span><span class="color1">h</span><span class="color3">-</span><span class="color2">C</span><span class="color1">a</span><span class="color3">r</span><span class="color1">v</span><span class="color2">a</span></h1>
   <h2>celebrates its Silver Jubilee</h2>
@@ -29,12 +36,6 @@
     </div>
   </div>
 </main>
-<footer> <img src="http://www.samkgo.com/training/edX/css-introduction/images/logo_sk_footer2.png" width="70" height="70" alt="logo"/>
-  <div id="final">
-    <p id="credits">Credits | thanks to Michel Buffa | JavaScript adapted from <a href="https://jsbin.com/rugosu/edit?html,js,output" title="JS Bin" target="_blank">Extract and draw sprite</a> & <a href="https://jsbin.com/gefezu/edit?html,css,js,output" title="JS Bin" target="_blank">Explosion effect using a particle system</a>.</p>
-    <p><a href="http://www.samkgo.com/training/edX/w3cx.html" title="samkgo.com" target="_blank">Training | edX | W3Cx</a></p>
-  </div>
-  <p id="copyright">© SamKGo</p>
-</footer>
+
 </body>
 </html>

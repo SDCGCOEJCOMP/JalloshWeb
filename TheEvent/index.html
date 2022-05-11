@@ -7,11 +7,9 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
@@ -23,7 +21,12 @@
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/venobox/venobox.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
+  <link href="Celebration/celebrate.css" rel="stylesheet" type="text/css">
+  <script src="https://use.typekit.net/utk0qbj.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="Celebration/celebrate.js"></script>
+  <script src="js/js_congratulate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.2/howler.min.js"></script>
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
@@ -40,6 +43,17 @@
   <!--==========================
     Header
   ============================-->
+  <script>
+    window.onload=setTimeout(function(){
+      for(var i=0;i<15;i++)
+      document.getElementById("congratulate").click();
+    },1000);
+    window.onload=setTimeout(function(){
+      document.getElementById("animation1").remove();
+    document.getElementById("animation2").remove();
+    },2050);
+    
+  </script>
   <header id="header">
     <div class="container">
 
@@ -70,12 +84,20 @@
     Intro Section
   ============================-->
   <section id="intro">
+<div id="animation1">
+      <canvas id="canvas1" width="1024" height="700"></canvas>
+    </div>
+    <div id="animation2">
+      <canvas id="canvas2" width="1200" height="700"></canvas>
+    </div>
     <div class="intro-container wow fadeIn">
       <h1 class="mb-4 pb-0">GCOEJ's<br><span>Technoarena</span><br> is back as <br><span>Tech-carva</span></h1>
       <p class="mb-4 pb-0">22nd May to 26th May 2022, GCOE Jalgaon</p>
       <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
-      <a href="#about" class="about-btn scrollto">Register</a>
+        <!-- <button id="congratulate" style="display:hidden">Register</button> -->
+      <div id="congratulate"></div>
+        <a href="#about" class="about-btn scrollto">Register</a>
     </div>
   </section>
 

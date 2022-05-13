@@ -1,7 +1,7 @@
 // JavaScript Document
 
 var SPRITESHEET_URL = "http://www.samkgo.com/training/edX/css-introduction/images/monster_sprites.png";
-var SPRITE_WIDTH = 700;
+var SPRITE_WIDTH = 900;
 var SPRITE_HEIGHT = 700;
 var NB_POSTURES = 1;
 var NB_FRAMES_PER_POSTURE = 16;
@@ -205,7 +205,7 @@ function createExplosion(x, y, color) {
 	var minSpeed = 60.0;
 	var maxSpeed = 700.0;
 
-	for (var angle = 0; angle < 720; angle += Math.round(360 / count)) {
+	for (var angle = 0; angle < 360; angle += Math.round(360 / count)) {
 		var particle = new Particle();
 
 		particle.x = x;
@@ -256,8 +256,12 @@ window.addEventListener("load", function () {
 	// Button click: Congratulate!
 	var button = document.getElementById("congratulate");
 	button.addEventListener("click", function () {
-		var x = randomFloat(300, 600);
-		var y = randomFloat(50, 200);
+		var w=screen.width;
+		w/=2;
+		var h=screen.height;
+		h*=0.2;
+		var x = randomFloat(w,w+100);
+		var y = randomFloat(h,h+200);
 
 		createExplosion(x, y, "#8ed261");
 		createExplosion(x, y, "#daf26b");

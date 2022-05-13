@@ -48,10 +48,10 @@
       for(var i=0;i<15;i++)
       document.getElementById("congratulate").click();
     },1000);
-    window.onload=setTimeout(function(){
-      document.getElementById("animation1").remove();
-    document.getElementById("animation2").remove();
-    },2050);
+    // window.onload=setTimeout(function(){
+    //   document.getElementById("animation1").remove();
+    // document.getElementById("animation2").remove();
+    // },2050);
     
   </script>
   <header id="header">
@@ -83,22 +83,26 @@
   <!--==========================
     Intro Section
   ============================-->
+  <div id="congratulate"></div>
   <section id="intro">
-<div id="animation1">
-      <canvas id="canvas1" width="1024" height="700"></canvas>
-    </div>
-    <div id="animation2">
-      <canvas id="canvas2" width="1200" height="700"></canvas>
-    </div>
+    
     <div class="intro-container wow fadeIn">
       <h1 class="mb-4 pb-0">GCOEJ's<br><span>Tech-Carava</span></h1>
       <p class="mb-4 pb-0">19th May to 21st May 2022, GCOE Jalgaon</p>
+      
       <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
         <!-- <button id="congratulate" style="display:hidden">Register</button> -->
-      <div id="congratulate"></div>
         <a href="#about" class="about-btn scrollto">Register</a>
     </div>
+    <div class="celebration">
+    <div id="animation1">
+      <canvas id="canvas1" width="1800" height="900"></canvas>
+    </div>
+    <div id="animation2">
+      <canvas id="canvas2" width="1800" height="900"></canvas>
+    </div>
+  </div>
   </section>
 
   <main id="main">
@@ -131,7 +135,7 @@
     <section id="speakers" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Events For You</h2>
+          <h2>Technical Events</h2>
           <p>Here are some of the events we are conductiong</p>
         </div>
 
@@ -140,92 +144,153 @@
             <div class="speaker">
               <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Click</a></h3>
-                <p>Event by department of computer science</p>
+                <h3><a href="compdept.html">Department of Computer Engineering</a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Pseudo Gladiators</a></h3>
-                <p>Event by Department of Computer Science</p>
+                <h3><a href="mech.html">Department of Mechanical Engineering</a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Digital Art</a></h3>
-                <p>Event by Department of Computer Science</p>
+                <h3><a href="elec.html">Department of Electrical Engineering</a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
-                <p>Debitis iure vero</p>
+                <h3><a href="civil.html">Department of Civil Engineering</a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Alejandrin Littel</a></h3>
-                <p>Qui molestiae natus</p>
+                <h3><a href="instru.html">Department of Instrumentation Engineering</a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
-                <p>Non autem dicta</p>
+                <h3><a href="entc.html">Department of ENTC </a></h3>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
+         
+         
+        </div>
+      </div>
+
+      
+
+    </section>
+    <!-- nontech events section -->
+    <section id="speakers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>CARVAAN Events</h2>
+          <p>Here are some of the events we are conductiong</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="compdept.html">Drama and Skit</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="mech.html">Open Mic</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="elec.html">Dance</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="civil.html">Food mela</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="instru.html">Orchestra</a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="entc.html">Prize Distribution </a></h3>
+                <div class="social">
+                  <a href=""><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+         
         </div>
       </div>
 

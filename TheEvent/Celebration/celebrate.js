@@ -143,7 +143,7 @@ function randomFloat(min, max) {
 
 /*A single explosion particle*/
 function Particle() {
-	this.scale = 1;
+	this.scale = 0.9;
 	this.x = 0;
 	this.y = 0;
 	this.radius = 20;
@@ -203,9 +203,9 @@ function createExplosion(x, y, color) {
 
 	var count = 10;
 	var minSpeed = 60.0;
-	var maxSpeed = 200.0;
+	var maxSpeed = 700.0;
 
-	for (var angle = 0; angle < 360; angle += Math.round(360 / count)) {
+	for (var angle = 0; angle < 720; angle += Math.round(360 / count)) {
 		var particle = new Particle();
 
 		particle.x = x;

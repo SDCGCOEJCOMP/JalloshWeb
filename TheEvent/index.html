@@ -48,10 +48,10 @@
       for(var i=0;i<15;i++)
       document.getElementById("congratulate").click();
     },1000);
-    window.onload=setTimeout(function(){
-      document.getElementById("animation1").remove();
-    document.getElementById("animation2").remove();
-    },2050);
+    // window.onload=setTimeout(function(){
+    //   document.getElementById("animation1").remove();
+    // document.getElementById("animation2").remove();
+    // },2050);
     
   </script>
   <header id="header">
@@ -83,22 +83,26 @@
   <!--==========================
     Intro Section
   ============================-->
+  <div id="congratulate"></div>
   <section id="intro">
-<div id="animation1">
-      <canvas id="canvas1" width="1024" height="700"></canvas>
-    </div>
-    <div id="animation2">
-      <canvas id="canvas2" width="1200" height="700"></canvas>
-    </div>
+    
     <div class="intro-container wow fadeIn">
       <h1 class="mb-4 pb-0">GCOEJ's<br><span>Tech-Carava</span></h1>
       <p class="mb-4 pb-0">19th May to 21st May 2022, GCOE Jalgaon</p>
+      
       <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
         <!-- <button id="congratulate" style="display:hidden">Register</button> -->
-      <div id="congratulate"></div>
         <a href="#about" class="about-btn scrollto">Register</a>
     </div>
+    <div class="celebration">
+    <div id="animation1">
+      <canvas id="canvas1" width="1800" height="900"></canvas>
+    </div>
+    <div id="animation2">
+      <canvas id="canvas2" width="1800" height="900"></canvas>
+    </div>
+  </div>
   </section>
 
   <main id="main">

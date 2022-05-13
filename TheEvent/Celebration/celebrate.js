@@ -260,7 +260,7 @@ window.addEventListener("load", function () {
 		w/=2;
 		var h=screen.height;
 		h*=0.2;
-		var x = randomFloat(w,w+100);
+		var x = randomFloat(w-100,w+100);
 		var y = randomFloat(h,h+200);
 
 		createExplosion(x, y, "#8ed261");

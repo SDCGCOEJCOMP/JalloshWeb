@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 /*Reset*/
-@import 'http://www.samkgo.com/training/edX/css-introduction/css/normalize.css';
 /* Change all elements to use border-box */
 html {
 	box-sizing: border-box;
@@ -11,13 +10,7 @@ html {
 }
 /*******/
 
-body {
-	font-family: "ff-meta-web-pro", sans-serif;
-	background-image: url(http://www.samkgo.com/training/edX/css-introduction/images/birthday-bg.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
+
 
 
 #animation {

@@ -1,6 +1,5 @@
 // JavaScript Document
 
-var SPRITESHEET_URL = "http://www.samkgo.com/training/edX/css-introduction/images/monster_sprites.png";
 var SPRITE_WIDTH = 900;
 var SPRITE_HEIGHT = 700;
 var NB_POSTURES = 1;
@@ -250,7 +249,6 @@ window.addEventListener("load", function () {
 
 	// Sound
 	var sound = new Howl({
-		src: ['http://www.samkgo.com/training/edX/css-introduction/audio/sound1.mp3', 'http://www.samkgo.com/training/edX/css-introduction/audio/sound1.wav']
 	});
 
 	// Button click: Congratulate!

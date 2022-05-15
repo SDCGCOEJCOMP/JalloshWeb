@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Tech-Carvaan</title>
+  <title>Tech - Carvaan</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -40,28 +40,40 @@
 
 <body>
 
-
+  <!--==========================
+    Header
+  ============================-->
+  <script>
+    window.onload=setTimeout(function(){
+      for(var i=0;i<25;i++)
+      document.getElementById("congratulate").click();
+    },1000);
+    // window.onload=setTimeout(function(){
+    //   document.getElementById("animation1").remove();
+    // document.getElementById("animation2").remove();
+    // },2050);
+    
+  </script>
   <header id="header">
     <div class="container">
 
       <div id="logo" class="pull-left">
         <!-- Uncomment below if you prefer to use a text logo -->
-        <!-- <h2><a href="#main">Tech-<span>Carvaan</span></a></h2> -->
+        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
         <a href="#intro" class="scrollto"><img src="img/techCarvaan.png" alt="" title=""></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="./index.html">Home</a></li>
+          <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#speakers">Events</a></li>
           <li><a href="#schedule">Schedule</a></li>
           <li><a href="#venue">Venue</a></li>
-          <li><a href="#hotels">Committees</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#supporters">Sponsors</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li class="buy-tickets"><a href="https://docs.google.com/forms/d/e/1FAIpQLScU1kdAm66F3uxGoO1E_0d0UqkyxCzPJ-HKa8YjOLjE8o72Ow/viewform?usp=sf_link ">Register</a></li>
+          <!-- <li class="buy-tickets"><a href="https://forms.gle/xAXEpSz4scRD8JcS8">Register</a></li> -->
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -70,9 +82,7 @@
   <!--==========================
     Intro Section
   ============================-->
-  <div id="congratulate">
-    
-  </div>
+  <div id="congratulate"></div>
   <section id="intro">
     
     <div class="intro-container wow fadeIn">
@@ -90,7 +100,6 @@
     <div id="animation2">
       <canvas id="canvas2" width="1800" height="900"></canvas>
     </div>
-    <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLScU1kdAm66F3uxGoO1E_0d0UqkyxCzPJ-HKa8YjOLjE8o72Ow/viewform?usp=sf_link" class="about-btn scrollto">Register</a> -->
   </div>
   </section>
 
@@ -108,7 +117,7 @@
           </div>
           <div class="col-lg-3">
             <h3>Where</h3>
-            <p>Government College of Engineering Jalgoan</p>
+            <p>Government College of ENgineering Jalgoan</p>
           </div>
           <div class="col-lg-3">
             <h3>When</h3>
@@ -121,7 +130,7 @@
     <!--==========================
       Speakers Section
     ============================-->
-    <section id="technical" class="wow fadeInUp m-3">
+    <section id="speakers" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>Technical Events</h2>
@@ -131,7 +140,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/1.png" alt="Speaker 1" class="img-fluid">
+              <img src="img/dept/istockphoto-1176400518-170667a.jpg" alt="Speaker 1" class="img-fluid" height="660" width="420">
               <div class="details">
                 <h3><a href="compdept.html">Department of Computer Engineering</a></h3>
                 <div class="social">
@@ -142,7 +151,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/1.png" alt="Speaker 1" class="img-fluid">
+              <img src="img/dept/mechanical.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="mech.html">Department of Mechanical Engineering</a></h3>
                 <div class="social">
@@ -153,7 +162,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/1.png" alt="Speaker 1" class="img-fluid">
+              <img src="img/dept/electrical.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="elec.html">Department of Electrical Engineering</a></h3>
                 <div class="social">
@@ -164,7 +173,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/1.png" alt="Speaker 1" class="img-fluid">
+              <img src="img/dept/civil.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="civil.html">Department of Civil Engineering</a></h3>
                 <div class="social">
@@ -175,7 +184,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/1.png" alt="Speaker 1" class="img-fluid">
+              <img src="img/dept/Instrumentation.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="instru.html">Department of Instrumentation Engineering</a></h3>
                 <div class="social">
@@ -186,7 +195,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/1.png" alt="Speaker 1" class="img-fluid">
+              <img src="img/dept/E&TC.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="entc.html">Department of E&TC </a></h3>
                 <div class="social">
@@ -204,7 +213,7 @@
 
     </section>
     <!-- nontech events section -->
-    <section id="carvaan" class="wow fadeInUp">
+    <section id="speakers" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>CARVAAN Events</h2>
@@ -442,9 +451,8 @@
 
         <div class="row no-gutters">
           <div class="col-lg-6 venue-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14898.982998277783!2d75.54002212912657!3d21.002826476197264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90fc9945a06b3%3A0x2adbed89161ccac2!2sGovernment%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1652602026165!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           <div class="col-lg-6 venue-info">
             <div class="row justify-content-center">
               <div class="col-11 col-lg-8">
@@ -461,73 +469,7 @@
 
     </section>
 
-    <!--==========================
-      Hotels Section
-    ============================-->
-    <section id="hotels" class="section-with-bg wow fadeInUp">
-
-      <div class="container">
-        <div class="section-header">
-          <h2>Hotels</h2>
-          <p>Her are some nearby hotels</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/1.png" alt="Hotel 1" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 1</a></h3>
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p>0.4 Mile from the Venue</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/2.jpg" alt="Hotel 2" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 2</a></h3>
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-full"></i>
-              </div>
-              <p>0.5 Mile from the Venue</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
-                <img src="img/hotels/3.jpg" alt="Hotel 3" class="img-fluid">
-              </div>
-              <h3><a href="#">Hotel 3</a></h3>
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p>0.6 Mile from the Venue</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </section>
+    
 
     <!--==========================
       Gallery Section
@@ -557,7 +499,7 @@
     <!--==========================
       Sponsors Section
     ============================-->
-    <section id="supporters" class="section-with-bg wow fadeInUp">
+    <!-- <section id="supporters" class="section-with-bg wow fadeInUp">
 
       <div class="container">
         <div class="section-header">
@@ -618,7 +560,7 @@
 
       </div>
 
-    </section>
+    </section> -->
 
     <!--==========================
       F.A.Q Section
@@ -644,7 +586,7 @@
                   </div>
                 </li>
       
-                <li>
+                <li>   
                   <a data-toggle="collapse" href="#faq2" class="collapsed">What about the rules of competition?<i class="fa fa-minus-circle"></i></a>
                   <div id="faq2" class="collapse" data-parent="#faq-list">
                     <p>
@@ -654,37 +596,39 @@
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq3" class="collapsed">What is the venue of my Event? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq3" class="collapse" data-parent="#faq-list">
                     <p>
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                    You can see the Rulebook for respective events under respective Department section in the website.
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq4" class="collapsed">What is the registration Fee for the event?<i class="fa fa-minus-circle"></i></a>
                   <div id="faq4" class="collapse" data-parent="#faq-list">
                     <p>
-                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                    </p>
+                      The registration fee for events is Rs. 50/- only. (As decided by College authority) 
+</p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq5" class="collapsed">What will be the prize for each event?<i class="fa fa-minus-circle"></i></a>
                   <div id="faq5" class="collapse" data-parent="#faq-list">
                     <p>
-                      Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                      First prize: Rs. 1500/- <br> Second prize: Rs. 1000/- <br> Third prize: Rs. 500/- 
                     </p>
                   </div>
                 </li>
       
                 <li>
-                  <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="fa fa-minus-circle"></i></a>
+                  <a data-toggle="collapse" href="#faq6" class="collapsed">For further queries where can I reach out?<i class="fa fa-minus-circle"></i></a>
                   <div id="faq6" class="collapse" data-parent="#faq-list">
                     <p>
-                      Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                      Contact details of your respective event coordinators are mentioned in the Rulebook. You can also contact Convenor and Co-convenor.<br>
+                      Mr.Aman Wankhede : 7263041256<br>
+                      Mr.Yash Chandekar: 9325830695
                     </p>
                   </div>
                 </li>
@@ -705,7 +649,7 @@
 
         <div class="section-header">
           <h2>Contact Us</h2>
-          <p>Nihil officia ut sint molestiae tenetur.</p>
+          <p>For Website access related queries you can reach us out at:</p>
         </div>
 
         <div class="row contact-info">
@@ -714,7 +658,7 @@
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
+              <address>SDC, 2nd Floor, Computer Department, Main Building GCOE, Jalgaon</address>
             </div>
           </div>
 
@@ -722,7 +666,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+              <p><a href="tel:+917263041256">+91 7263041256</a></p>
             </div>
           </div>
 
@@ -730,37 +674,13 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="mailto:info@example.com">sdcgcoej1@gmail.com</a></p>
             </div>
           </div>
 
         </div>
 
-        <div class="form">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validation"></div>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
-        </div>
+        
 
       </div>
     </section><!-- #contact -->
@@ -777,31 +697,34 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6 footer-info">
-            <img src="img/techCarvaan.png" alt="TheEvenet">
-             </div>
+            <a href="#intro" class="scrollto"><img src="img/techCarvaan.png" alt="" title=""></a>
+            <p>This year, GCOEJ is celebrating its 25th Year of Annual gathering and is back as "Tech-Carvaan". Students of GCOEJ presents a streak mesmerising events of technical and non-technical background in the silver jublie event of GCOEJ anual tech and Cultural fest.</p>
+          </div>
 
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#technical">All Events</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#technical"> Technical Events</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#carvaan"> Carvaan Events</a></li>
-              
+              <li><i class="fa fa-angle-right"></i> <a href="#intro">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#speakers">Events</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#schedule">Schedule</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              Governement college of engineering , Jalgaon <br>
-            
+              SDC, 2nd Floor, <br>
+              Computer Department, <br>
+              Main building, GCOE, Jalgaon <br>
+              <strong>Phone:</strong> +91 7263041256<br>
+              <strong>Email:</strong> sdcgcoej1@gmail.com<br>
             </p>
 
             <div class="social-links">
-
-              <a href="https://www.instagram.com/techcarvaan_gcoej/" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="https://www.gcoej.ac.in" class="instagram"><i class="fa fa-link"></i></a>
-              
+              <a href="#" class="twitter"><i class="fa fa-link"></i></a>
+       
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+         
             </div>
 
           </div>
@@ -812,11 +735,16 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
+        &copy; Copyright <strong>Software Development Cell</strong>. All Rights Reserved
       </div>
       <div class="credits">
-       
-        Designed by <a href="">Software Development Cell</a>
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+        -->
+        Designed by<a href="">Software Development Cell</a>
       </div>
     </div>
   </footer><!-- #footer -->

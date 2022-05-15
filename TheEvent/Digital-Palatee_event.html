@@ -7,9 +7,11 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
+
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
@@ -21,12 +23,7 @@
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/venobox/venobox.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="Celebration/celebrate.css" rel="stylesheet" type="text/css">
-  <script src="https://use.typekit.net/utk0qbj.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <script src="Celebration/celebrate.js"></script>
-  <script src="js/js_congratulate.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.2/howler.min.js"></script>
+
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
@@ -43,110 +40,67 @@
   <!--==========================
     Header
   ============================-->
-  <script>
-    window.onload=setTimeout(function(){
-      for(var i=0;i<15;i++)
-      document.getElementById("congratulate").click();
-    },1000);
-    // window.onload=setTimeout(function(){
-    //   document.getElementById("animation1").remove();
-    // document.getElementById("animation2").remove();
-    // },2050);
-    
-  </script>
-  <header id="header">
+  <header id="header" class="header-fixed">
     <div class="container">
 
       <div id="logo" class="pull-left">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a>
+        <a href="index.html#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#speakers">Events</a></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#venue">Venue</a></li>
-          <li><a href="#hotels">Committees</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#supporters">Sponsors</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li class="buy-tickets"><a href="#buy-tickets">Register</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#speakers">Speakers</a></li>
+          <li><a href="index.html#schedule">Schedule</a></li>
+          <li><a href="index.html#venue">Venue</a></li>
+          <li><a href="index.html#hotels">Hotels</a></li>
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="index.html#supporters">supporters</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li class="buy-tickets"><a href="index.html#buy-tickets">Buy Tickets</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
 
-  <!--==========================
-    Intro Section
-  ============================-->
-  <div id="congratulate"></div>
-  <section id="intro">
-    
-    <div class="intro-container wow fadeIn">
-      <h1 class="mb-4 pb-0">Computer  <span>Department</span></h1>
-      <a href="#about" class="about-btn scrollto my-0">Register</a>
-    
-    <div class="celebration">
-    <div id="animation1">
-      <canvas id="canvas1" width="1800" height="900"></canvas>
-    </div>
-    <div id="animation2">
-      <canvas id="canvas2" width="1800" height="900"></canvas>
-    </div>
-  </div>
+  <main id="main" class="main-page">
 
-  <section id="speakers" class="wow fadeInUp mx-auto">
-    <div class="container justify-content-center">
-      <div class="section-header">
-        <h2 class="text-white">Events For You</h2>
+    <!--==========================
+      Speaker Details Section
+    ============================-->
+    <section id="speakers-details" class="wow fadeIn">
+      <div class="container">
+        <div class="section-header">
+          <h2>Digital Pallete</h2>
+          <p>Digital Art Competition</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/speakers/1.png" alt="Speaker 1" class="img-fluid">
+          </div>
+
+          <div class="col-md-6">
+            <div class="details">
+              <h2>Digital Pallete</h2>
+              
+              <p>Digital Pallete is a digital art competition, for which participants have to create a art peice digitally based on application provided by organizers.</p>
+ 
+              <p>note:- Touch Screen Mobile Phones are necessary.</p> 
+
+              <a href="#about" class="about-btn scrollto">Register</a>
+            </div>
+          </div>
+          
+        </div>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker">
-            <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
-            <div class="details">
-              <h3><a href="Click-details.html">Click</a></h3>
-              <div class="social">
-                <a href=""><i class="fa fa-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker">
-            <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
-            <div class="details">
-              <h3><a href="compdept.html">Pseudo Gladiators</a></h3>
-              <div class="social">
-                <a href=""><i class="fa fa-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker">
-            <img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
-            <div class="details">
-              <h3><a href="compdept.html">Digital Pallete</a></h3>
-              <div class="social">
-                <a href=""><i class="fa fa-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-      </section>
-  </section>
-      
+    </section>
 
   </main>
-
-  
 
 
   <!--==========================
@@ -157,9 +111,33 @@
       <div class="container">
         <div class="row">
 
-          
+          <div class="col-lg-3 col-md-6 footer-info">
+            <img src="img/logo.png" alt="TheEvenet">
+            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
+          </div>
 
-          
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>

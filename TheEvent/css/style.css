@@ -485,23 +485,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
+#canvas1, #canvas2{
+  display: flex;
+  justify-content: center;
+}
 .celebration{
   position: absolute;
-  bottom: 0;
-  left: 0;
-  top: 90px;
-  right: 0;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 0 15px;
-
-  /* margin-left: 20%; */
 }
 
 #intro .intro-container {
